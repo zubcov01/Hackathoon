@@ -1,0 +1,177 @@
+.biograp{
+    position: relative;
+    width: 100%;
+    height:  500px;
+    background: rgba(0, 0, 0, 0.979);
+    padding-top: 20px;
+    &__logo{
+        transform: rotate(180deg);
+        width: 90px;
+        height:44px;
+        
+    }
+    &__title{
+        margin-top: 15px;
+        margin-left: 20px;
+        color: white;
+        font-size: 43px;
+    }
+    &__box{
+        width: 100px;
+        height: 100px;
+        color: white;
+        margin-left: -80px;
+        &__titlek{
+            width: 200px;
+            margin-top: 280px;
+            margin-left: 210px;
+        }
+        &__descrk{
+            margin-left: 270px;
+            width: 100px;
+            font-size: 16px;
+            margin-top: 10px
+        }
+        &__btnk{
+            width: 143px;
+            height: 44px;
+            border-radius: 20px;
+            background: none;
+            color: white;
+            border: 1px solid white;
+            margin-left: 220px;
+            margin-top: 10px;
+            &:focus{
+                outline: none;
+            }
+        }
+        &__linkk{
+            color: white;
+            text-decoration: none;
+        }
+        &__titler{
+            color: white;
+            margin-top: -100px;
+            margin-left: 540px;
+            width: 300px;
+        }
+        &__descrr{
+            color: white;
+            margin-left: 570px;
+            margin-top: 10px;
+            width: 100px;
+        }
+        &__btnr{
+            margin-top: 10px;
+            margin-left: 540px;
+            background: none;
+            width: 143px;
+            height: 44px;
+            border-radius: 20px;
+            border: 1px solid #fff;
+        }
+        &__linkr{
+            color: white;
+            text-decoration: none;
+            
+        }
+        &__titleab{
+            color: white;
+            margin-left: 830px;
+            position: absolute;
+            top: 360px;
+            width: 200px;
+        }
+        &__descrab{
+            color: white;
+            margin-left: 890px;
+            position: absolute;
+            top: 400px;
+        }
+        &__btnab{
+            margin-left: 850px;
+            width: 143px;
+            height: 44px;
+            border-radius: 20px;
+            border: 1px solid #fff;
+            background: none;
+            margin-top: -35px;
+            position: absolute; 
+            &:focus{
+                outline: none;
+            }
+        }
+        &__linkab{
+            color: white;
+            text-decoration: none;
+        }
+        &__titleay{
+        margin-left: 1150px;
+        margin-top: -200px;
+        width: 250px;
+        }
+        &__descray{
+            margin-left: 1215px;
+            margin-top: 10px;
+        }
+        &__btnay{
+            width: 143px;
+            height: 44px;
+            background: none;
+            border-radius: 20px;
+            border: 1px solid #fff;
+            margin-left: 1185px;
+            margin-top: 10px;
+            position: absolute;
+            &:focus{
+                outline: none;
+            }
+        }
+        &__linkay{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    &__kerl{
+        width: 200px;
+        height:200px;
+        border-radius: 50%;
+        position: absolute;
+        left: 120px;
+        top: 140px;
+        
+    }
+    &__rasul{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 520px;
+        margin-top: -10px;
+        position: absolute;
+        top: 150px;
+    }
+    &__ablayxan{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 820px;
+        margin-top: -325px;
+        position: absolute;
+        
+    
+    }
+    &__aldayar{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 1150px;
+        margin-top: -225px;
+        position: absolute;
+    }
+    
+}
+.wrapper{
+    display: flex;
+    margin-left: 50px;
+    
+}

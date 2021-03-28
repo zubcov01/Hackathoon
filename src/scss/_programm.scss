@@ -1,0 +1,121 @@
+.programm{
+    height: 650px;  
+    background: rgba(0, 0, 0, 0.979);
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    &__sphere{
+        margin-left: 635px;
+        margin-bottom: 20px;
+        
+    }
+    &__text{
+        color: white;
+        text-align: center;
+    }
+    &__descr{
+        margin-top: 10px;
+        opacity: 0.3;
+    }
+    &__scale{
+        width: 450px;
+        height: 6px;
+        margin-top: 240px;
+        margin-left: 450px;
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+        transform: rotate(90deg);
+    }
+    &__box-1{
+        opacity: 0.3;
+        position: absolute;
+        border: 1px solid #ffffff;
+        top: 20px;
+        width: 35px;
+        transform: rotate(90deg);
+    
+    }
+    &__box-2{
+        opacity: 0.3;
+        position: absolute;
+        border: 1px solid #ffffff;
+        top: 20px;
+        left: 370px;
+        width: 35px;
+        transform: rotate(90deg);
+
+    }
+    &__box-3{
+        opacity: 0.3;
+        position: absolute;
+        border: 1px solid #ffffff;
+        top: -19px;
+        left: 330px;
+        width: 35px;
+        transform: rotate(90deg);
+
+    }
+    &__box-4{
+        opacity: 0.3;
+        position: absolute;
+        border: 1px solid #ffffff;
+        top: 20px;
+        left: 250px;
+        width: 35px;
+        transform: rotate(90deg);
+
+    }
+    &__box-5{
+        opacity: 0.3;
+        position: absolute;
+        border: 1px solid #ffffff;
+        left: 200px;
+        top: -20px;
+        width: 35px;
+        transform: rotate(90deg);
+
+    }
+    &__box-6{
+        opacity: 0.3;
+        position: absolute;
+        border: 1px solid #ffffff;
+        top: 20px;
+        left: 120px;
+        width: 35px;
+        transform: rotate(90deg);
+
+    }
+    &__box-7{
+        opacity: 0.3;
+        position: absolute;
+        border: 1px solid #ffffff;
+        left: 60px;
+        top: -20px;
+        width: 35px;
+        transform: rotate(90deg);
+
+    }
+    &__border{
+        &__text{
+            color: white;
+            transform: rotate(-90deg);    
+        }
+        &__title{
+            font-size: 10px;
+            opacity: 0.3;
+        }
+        &__title1{
+            margin-left:180px;
+            position: relative;
+            top: -175px;
+            line-height: 122px;
+            width: 100px;
+        }
+        &__title2{
+            position: relative;
+            top: 100px;
+            margin-left: 360px;
+            margin-top: -710px;
+            line-height: 133px;
+        }
+    }
+}
