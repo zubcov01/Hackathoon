@@ -21,6 +21,7 @@
         height: 100px;
         color: white;
         margin-left: -80px;
+        position: relative;
         &__titlek{
             width: 200px;
             margin-top: 280px;
@@ -79,7 +80,7 @@
             color: white;
             margin-left: 830px;
             position: absolute;
-            top: 360px;
+            top: -102px;
             width: 200px;
         }
         &__descrab{
@@ -95,8 +96,9 @@
             border-radius: 20px;
             border: 1px solid #fff;
             background: none;
-            margin-top: -35px;
+            // margin-top: -35px;
             position: absolute; 
+            top: -60px;
             &:focus{
                 outline: none;
             }
@@ -137,8 +139,12 @@
         height:200px;
         border-radius: 50%;
         position: absolute;
-        left: 120px;
-        top: 140px;
+        left: 190px;
+        top: -210px;
+        &:hover{
+            transform: scale(1.5);
+            transition: 1.5s;
+        }
         
     }
     &__rasul{
@@ -148,7 +154,11 @@
         margin-left: 520px;
         margin-top: -10px;
         position: absolute;
-        top: 150px;
+        top: -210px;
+        &:hover{
+            transform: scale(1.5);
+            transition: 1.5s;
+        }
     }
     &__ablayxan{
         width: 200px;
@@ -157,8 +167,10 @@
         margin-left: 820px;
         margin-top: -325px;
         position: absolute;
-        
-    
+        &:hover{
+            transform: scale(1.5);
+            transition: 1.5s;
+        }
     }
     &__aldayar{
         width: 200px;
@@ -167,6 +179,10 @@
         margin-left: 1150px;
         margin-top: -225px;
         position: absolute;
+        &:hover{
+            transform: scale(1.5);
+            transition: 1.5s;
+        }
     }
     
 }

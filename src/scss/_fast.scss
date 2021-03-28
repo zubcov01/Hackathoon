@@ -1,0 +1,64 @@
+.fastrun{
+    display: flex;
+    justify-content: space-between;
+    margin-right:950px; 
+    margin-left:100px ;
+    margin-top: 300px;
+}
+.p{
+    color:white;
+    margin-left:100px ;
+    margin-top: 100px;
+}
+.protsent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+} 
+.gradient{
+    margin-top: 5px;
+    margin-left:100px ;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.grad{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    width: 324px;
+    height: 80px; 
+    
+}
+.grad1{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 324px;
+    height: 60px;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+.grad2{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    width: 324px;
+    height: 30px;
+    margin-left: -158px;
+    margin-top: 25px;
+}
+.grad3{
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 324px;
+    height: 10px;
+    margin-left: -70px;
+    margin-top: 35px;
+}
+.txt p{
+    color: white;
+    margin: 10px;
+}
+.txt {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -31,5 +31,16 @@
         position: absolute;
         margin-top: 40px;
         border: none;
+        color: white;
+        &:focus{
+            outline: none;
+        }
+    }
+    &__inst{
+        position: absolute;
+        top: 3047px;
+        left: 655px;
+        width: 30px;
+        height: 30px;
     }
 }

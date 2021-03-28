@@ -1,15 +1,15 @@
+body {
+  background: black;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
-.container1 {
+.container {
   max-width: 1440px;
   margin: 0 auto;
-}
-
-* {
-  background: rgba(0, 0, 0, 0.979);
 }
 
 h1 {
@@ -76,22 +76,6 @@ li {
   margin-right: 100px;
 }
 
-.carousel-inner {
-  top: 80px;
-}
-
-.overlay {
-  width: 300px;
-  top: 50%;
-  left: 35%;
-  color: white;
-  text-align: center;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  padding: 20px;
-}
-
 .programm {
   margin-top: 50px;
   height: 650px;
@@ -119,7 +103,7 @@ li {
 .programm__scale {
   width: 450px;
   height: 6px;
-  margin-top: 240px;
+  margin-top: 250px;
   margin-left: 450px;
   background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
   -webkit-transform: rotate(90deg);
@@ -256,6 +240,7 @@ li {
   height: 100px;
   color: white;
   margin-left: -80px;
+  position: relative;
 }
 
 .biograp__box__titlek {
@@ -324,7 +309,7 @@ li {
   color: white;
   margin-left: 830px;
   position: absolute;
-  top: 360px;
+  top: -102px;
   width: 200px;
 }
 
@@ -342,8 +327,8 @@ li {
   border-radius: 20px;
   border: 1px solid #fff;
   background: none;
-  margin-top: -35px;
   position: absolute;
+  top: -60px;
 }
 
 .biograp__box__btnab:focus {
@@ -391,8 +376,15 @@ li {
   height: 200px;
   border-radius: 50%;
   position: absolute;
-  left: 120px;
-  top: 140px;
+  left: 190px;
+  top: -210px;
+}
+
+.biograp__kerl:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .biograp__rasul {
@@ -402,7 +394,14 @@ li {
   margin-left: 520px;
   margin-top: -10px;
   position: absolute;
-  top: 150px;
+  top: -210px;
+}
+
+.biograp__rasul:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .biograp__ablayxan {
@@ -414,6 +413,13 @@ li {
   position: absolute;
 }
 
+.biograp__ablayxan:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
 .biograp__aldayar {
   width: 200px;
   height: 200px;
@@ -421,6 +427,13 @@ li {
   margin-left: 1150px;
   margin-top: -225px;
   position: absolute;
+}
+
+.biograp__aldayar:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .wrapper {
@@ -468,5 +481,23 @@ m
   position: absolute;
   margin-top: 40px;
   border: none;
+  color: white;
+}
+
+.footer__btn:focus {
+  outline: none;
+}
+
+.footer__inst {
+  position: absolute;
+  top: 3047px;
+  left: 655px;
+  width: 30px;
+  height: 30px;
+}
+
+.wf {
+  width: 100%;
+  height: 630px;
 }
 /*# sourceMappingURL=style.css.map */
