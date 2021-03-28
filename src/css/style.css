@@ -8,6 +8,35 @@
   margin: 0 auto;
 }
 
+* {
+  background: rgba(0, 0, 0, 0.979);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.boss p {
+  color: white;
+  text-align: center;
+}
+
+.boss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+}
+
+.box-3 {
+  text-align: center;
+}
+
+.box-3 p {
+  color: white;
+}
+
 .programm {
   height: 650px;
   background: rgba(0, 0, 0, 0.979);
